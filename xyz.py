@@ -229,10 +229,10 @@ def R():
 			print(logo)
 			print ('༄•───────────────────────────────────────•༄')
 			print("\033[1;93m{1}\033[1;92m ➟ \033[1;95mSTART FILE CRACKING  : BST METHOD")
-			print("\033[1;93m{ }\033[1;94m ➟ \033[1;94mPUBLICK AC CRACKING  : NO LOGIN😓")
-			print("\033[1;93m{ }\033[1;95m ➟ \033[1;93mUNLIMITED FILEMAKING : NO LOGIN😓")
-			print("\033[1;93m{ }\033[1;96m ➟ \033[1;92mRANDOM AC CRACKING   : NO LOGIN😓")
-			print("\033[1;93m{4}\033[1;97m ➟ \033[1;91mCONTACT TO ADMIN:😽")
+			print("\033[1;93m{2}\033[1;94m ➟ \033[1;94mPUBLICK AC CRACKING  : NO LOGIN😓")
+			print("\033[1;93m{3}\033[1;95m ➟ \033[1;93mUNLIMITED FILEMAKING : NO LOGIN😓")
+			print("\033[1;93m{4 }\033[1;96m ➟ \033[1;92mRANDOM AC CRACKING   : NO LOGIN😓")
+			print("\033[1;93m{5}\033[1;97m ➟ \033[1;91mCONTACT TO ADMIN:😽")
 			print ('\033[1;92m༄•───────────────────────────────────────•༄')
 			key = input(" [*] Choose : ")
 			print ('༄•───────────────────────────────────────•༄')
@@ -252,12 +252,12 @@ def R():
 			elif key in ["3", "03"]:
 				dupcutter()
 
-			elif key in ["4", "04"]:
+			elif key in ["5", "05"]:
 				os.system("xdg-open https://www.facebook.com/Mr.KhanVau420")
 
 				R()
 
-			elif key in ["5", "05"]:
+			elif key in ["4", "04"]:
 
 				time.sleep(0.5)
 
