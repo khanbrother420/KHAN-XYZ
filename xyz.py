@@ -314,7 +314,7 @@ def v3():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-         print(' \033[1;33m[✅]  TOTAL IDS :\033[1;92m '+tl)
+         print('\033[1;33m[✅]  TOTAL IDS :\033[1;92m '+tl)
           print(f"\033[1;33m[🚹]  YOUR TERGET CLONE MENU:\033[1;92m {doamin}")
         print(' \033[1;33m[🆑]  THE CLONE PROCESS HAS BEEN STARTED')
         print(' \033[1;33m[☢️]  WAIT FOR IDS ')
