@@ -1616,7 +1616,3 @@ def trt6(ids,passlist):
 		pass
 try:
 	menu()
-except requests.exceptions.ConnectionError:
-	print('\n No internet connection ...')
-	exit()
-except:exit()
