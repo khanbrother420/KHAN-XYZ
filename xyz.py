@@ -460,7 +460,7 @@ def RMX():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "≠".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/MAMUN-404-CYBER/MX-M1/blob/main/Approval.txt').text
+    httpCaht = requests.get('https://github.com/khanbrother420/KHAN-XYZ/blob/main/Approval.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       time.sleep(0.3)
